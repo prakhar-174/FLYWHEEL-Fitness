@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+   font-family: Arial;
+   border: border-box; 
+   /* background-color: #28282B; */
+}
+.navbar{
+    height: 70px;
+    border-bottom: 1.5px solid white;
+    background-color: #1B1212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.nav-name{
+    width: 500px;
+    margin-left: 25px;
+}
+.nav-name h1{
+    color: #FF3131;
+}
+.nav-items{
+    width: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-items a{
+    text-decoration: none;
+    color: white;
+}
+.nav-items a:hover{
+    color: #FF3131;
+    transform: translateY(-2px);
+}
+
+/* about */
+.about-section{
+    background-color: #28282B;
+    height: 425px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-hero{
+    height: 400px;
+    width: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-descript{
+    height: 400px;
+    width: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descript1{
+    width: 35%;
+}
+.descript1 h1{
+    font-size: 55.5px;
+    color: white;
+}
+.heroimg1{
+    background-image: url("https://i.pinimg.com/736x/8e/0d/ed/8e0dedb2c7ee319347def4c5d2fde44b.jpg");
+    background-size: cover;
+    height: 375px;
+    width: 65%;
+}
+button{
+    position: relative;
+    left: 8px;
+    top: 30px;
+    font-size: 30px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #FF3131;
+    border-color: #FF3131;
+    transition: all 0.25s linear;
+}
+button:hover{
+    transform: translateY(-3px);
+    background-color: white;
+}
+
+/* about-Us */
+.for-user{
+    background-color: #28282B;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.descript2{
+    height: 400px;
+    width: 40%;
+}
+.descript2 h1{
+    font-size: 47px;
+    margin-top: 50px;
+    margin-left: 15px;
+    color: rgba(255, 0, 0, 0.962);
+}
+.descript2 p{
+    color: white;
+    font-size: 25px;
+    margin-top: 2px;
+    margin-left: 55px;
+}
+.user-hero{
+    height: 400px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroimg2{
+    height: 400px;
+    width: 325px;
+    background-image: url("https://img.freepik.com/premium-photo/sporty-beautiful-woman-doing-fitness-exercising-black-background-stay-fit_881647-429.jpg");
+    background-size: cover;
+}
+
+/* pricesection */
+.plan{
+    height: 80px;
+    background-color: #28282B;
+    color: rgba(255, 0, 0, 0.962);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan h1{
+    font-size: 47px;
+}
+.price-panel{
+    height: 390px;
+    background-color: #28282B;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+.planmenu{
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+    padding-bottom: 2px;
+}
+ul p{
+    font-size: 18px;
+    padding: 2px;
+}
+ul a{
+    margin-top: 10px;
+    display: block;
+    font-size: 18px;
+    color: #dddddd;
+}
+.our-trainers{
+    height: 80px;
+    background-color: #28282B;
+    color: rgba(255, 0, 0, 0.962);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-trainers h1{
+    font-size: 47px;
+}
+
+.trainerintro{
+    height: 400px;
+    background-color: #28282B;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.trainer{
+    height: 350px;
+    width: 30%;
+}
+.trainer1{
+    margin-top: 13px;
+    margin-left: 85px;
+    height: 250px;
+    width: 60%;
+    background-image: url("https://i.pinimg.com/736x/a9/e8/b9/a9e8b95e1bafa8a3da8d889328f62c09.jpg");
+    background-size: cover;
+    border-radius: 6px;
+}
+.coach:hover{
+    transform: translateY(-4px);
+}
+.trainer h2{
+    text-align: center;
+    color: rgba(255, 0, 0, 0.962);
+}
+.trainer p{
+    text-align: center;
+}
+.trainer i{
+    color: white;
+}
+.trainer2{
+    margin-top: 13px;
+    margin-left: 85px;
+    height: 250px;
+    width: 60%;
+    background-image: url("https://live.staticflickr.com/4726/39457341351_a6f8acb887_z.jpg");
+    background-size: cover;
+    border-radius: 6px;
+}
+.trainer3{
+    margin-top: 13px;
+    margin-left: 85px;
+    height: 250px;
+    width: 60%;
+    background-image: url("https://www.mypersonaltrainerwebsite.com/uploads/2/2/0/1/22014694/reflection_orig.jpg");
+    background-size: cover;
+    border-radius: 6px;
+}
+
+/* contact_detail */
+.details{
+    background-color: #28282B;
+    color: #FF3131;
+}
+.details h1{
+    text-align: center;
+    font-size: 47px;
+}
+.contact-detail{
+    height: 450px;
+    background-color: #28282B;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+.entry-form{
+    height: 380px;
+    width: 34%;
+}
+.frame{
+    height: 380px;
+    width: 34%;
+}
+
+/* form */
+.form-content{
+    color: #FF3131;
+    margin-left: 15px;
+}
+label{
+    color: white;
+    font-size: 18px;
+}
+#firstname{
+    width: 200px;
+    height: 28px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+#email{
+    width: 200px;
+    height: 28px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.comment-box{
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.genders{
+    margin-left: 12px;
+}
+iframe{
+    height: 380px;
+    width: 100%;
+}
+
+/* footer */
+.foot-panel1{
+    height: 300px;
+    background-color: #28282B;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 16px;
+    color: #dddddd;
+}
+ul p{
+    color: #FF3131;
+}
+.footer-end{
+    height: 30px;
+    background-color: #1B1212;
+}
+.footer-end h4{
+    text-align: center;
+    color: #FF3131;
+}
+/* @media (max-width: 480px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-section{
+        width: 100vh;
+    }
+    .for-user{
+        height: 500px;
+        width: 100vh;
+    }
+    .descript2 h1{
+        font-size: 45px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .descript2 p{
+        font-size: 20px;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    .plan , .our-trainers, .price-panel, .trainerintro{
+        width: 100vh;
+    }
+}
+@media (max-width: 768px) {
+    .navbar{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .nav-items a{
+        font-size: 14px;
+    }
+.about-section{
+    width: 100vh;
+}
+.for-user{
+    width: 100vh;
+}
+.plan , .our-trainers, .price-panel, .trainerintro{
+    width: 100vh;
+}
+} */
